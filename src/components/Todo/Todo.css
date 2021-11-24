@@ -1,0 +1,72 @@
+.todoMain {
+  min-width: 300px;
+  width: 60%;
+  min-height: 30px;
+  margin: 0 30px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 3px 0.5px rgba(255, 255, 255, 0.4);
+}
+.todoMain-SVG svg {
+  height: 23px;
+  margin: 0 5px;
+}
+svg {
+  cursor: pointer;
+}
+
+.todoMain-todo {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  color: #3d3c3c;
+  width: 80%;
+  max-width: 80%;
+  font-weight: 400;
+}
+.todoMain-todo-input {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  color: #3d3c3c;
+  width: 79%;
+  max-width: 79%;
+  font-weight: 400;
+  border: none;
+  text-align: center;
+}
+
+.isDone {
+  animation: 500ms done ease-in forwards;
+  text-decoration: line-through solid #8a8a8a 5px;
+  font-weight: 400;
+  color: #8a8a8a;
+}
+
+@keyframes done {
+  0% {
+    text-decoration: none;
+  }
+  100% {
+    text-decoration: line-through #8a8a8a 1.2px;
+  }
+}
+
+.SVG-Notdone path {
+  fill: #d35400;
+}
+
+.SVG-done path {
+  fill: #2ecc71;
+}
+
+.SVG-delete path {
+  fill: #c0392b;
+}
+
+.SVG-change path {
+  fill: #2980b9;
+}

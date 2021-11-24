@@ -17,12 +17,13 @@
 .addTodo_input {
   min-width: 300px;
   width: 35%;
-  height: 40px;
+  min-height: 40px;
   margin: 0 10px;
   padding: 0 20px;
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
   color: #727171;
+  border-radius: 5px;
 }
 @keyframes an {
   0% {

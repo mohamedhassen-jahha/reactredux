@@ -1,0 +1,37 @@
+.todoList {
+  width: 100vw;
+  padding: 0 10%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.todoList-filter {
+  width: 100vw;
+  padding: 0 35%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+
+.todoList-filter button {
+  padding: 10px 20px;
+  border: transparent;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: #e74c3c;
+  color: white;
+  font-weight: 700;
+}
+
+.todoList-filter button:focus {
+  background-color: #ee2711;
+}
+.todoList-oups {
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
